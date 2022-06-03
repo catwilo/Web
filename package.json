@@ -1,0 +1,19 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "Pruebas NodeJS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catwilo/Web.git"
+  },
+  "author": "catwilo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/catwilo/Web/issues"
+  },
+  "homepage": "https://github.com/catwilo/Web#readme"
+}
