@@ -4,7 +4,8 @@
   "description": "NodeJS pruebas",
   "main": "index.html",
   "scripts": {
-    "lser": "lite-server",
+    "dev": "lite-server",
+		"lser": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
