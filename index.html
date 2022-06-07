@@ -6,36 +6,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
 </head>
 
 <body>
     <div class="jumbotron">
         <h1>Empresa de Obra blanca</h1>
         <hr>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h2>Descripcion</h2>
-                    <p>Los mejores constructores de acabados, tales como; estuco, pintura, baños,
-                        cabinas, cocina,
-                        cableado
-                        eléctrico, y demás material</p>
-                </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <p>
+                    <h3>Descripcion</h3>
+                    <p>Los mejores constructores de acabados, tales como; estuco, pintura, baños, cocina,
+                        cableado eléctrico, y demás material</p>
+                </p>
             </div>
-            <div class="row">
-                <div class="col">
-                    <h2>Mision</h2>
+            <div class="col-sm-4">
+                <p>
+                    <h3>Mision</h3>
                     <p>Entregar un servicio con la mejor calidad</p>
-                </div>
+                </p>
             </div>
-            <div class="row">
-                <div class="col">
-                    <h2>Vision</h2>
+            <div class="col-sm-4">
+                <p>
+                    <h3>Vision</h3>
                     <p>Ser una excelente competencia para las companias de obra blanca</p>
-                </div>
+                </p>
             </div>
         </div>
+        <hr>
+        <div class="d-flex flex-wrap flex-row-reverse">
+            <div class="reserva d-flex flex-column justify-content-between">
+                <h4>Servicio de acabados en estuco</h4>
+                <p>Agenda tu cita de cotizacion en estuco</p>
+                <button class="btn btn-warning">Quiero reservar</button>
+            </div>
+            <div class="reserva d-flex flex-column justify-content-between">
+                <h4>Servicio de acabados en pintura</h4>
+                <p>Agenda tu cita de cotizacion en pintura</p>
+                <button class="btn btn-success">Quiero reservar</button>
+            </div>
+            <div class="reserva d-flex flex-column justify-content-between">
+                <h4>Servicio de acabados en baños</h4>
+                <p>Agenda tu cita de cotizacion en baños</p>
+                <button class="btn btn-primary">Quiero reservar</button>
+            </div>
+            <div class="reserva d-flex flex-column justify-content-between">
+                <h4>Servicio de acabados en cocina</h4>
+                <p>Agenda tu cita de cotizacion en cocina</p>
+                <button class="btn btn-primary">Quiero reservar</button>
+            </div>
+            <div class="reserva d-flex flex-column justify-content-between">
+                <h4>Servicio de acabados en cocina de madera</h4>
+                <p>Agenda tu cita de cotizacion en cocina de madera</p>
+                <button class="btn btn-primary">Quiero reservar</button>
+            </div>
+            <div class="reserva d-flex flex-column justify-content-between">
+                <h4>Servicio de acabados en cocina industrial</h4>
+                <p>Agenda tu cita de cotizacion en cocina industrial</p>
+                <button class="btn btn-primary">Quiero reservar</button>
+            </div>
+            <div class="reserva d-flex flex-column justify-content-between">
+                <h4>Servicio de acabados en baños de lujo</h4>
+                <p>Agenda tu cita de cotizacion en baños de lujo</p>
+                <button class="btn btn-danger">Quiero reservar</button>
+            </div>
+        </div>
+        <hr>
     </div>
+    <footer>
+        <div class="row">
+            <div class="col-sm-4 d-flex flex-column">
+                <a href="https://www.google.com">Google+</a>
+                <a href="https://www.facebook.com">Facebook</a>
+                <a href="https://www.instagram.com">Instagram</a>
+                <a href="https://www.twitter.com">Twitter</a>
+            </div>
+            <div class="col-sm-4">
+                <address>
+                    <h3>Oficina Central</h3>
+                    <p>Carrera 4 # 5 - 21, Villanueva Casanare, Colombia</p>
+                    <p>+57 601 624 2244</p>
+                    <p>ServicioDeAtencion@PaezBuilding.co</p>
+                </address>
+            </div>
+            <div class="col-sm-4 d-flex flex-column align-i">
+                <a href="https://www.google.com">Nosotros</a>
+                <a href="https://www.facebook.com">Precios</a>
+                <a href="https://www.instagram.com">Terminos y Condiciones</a>
+                <a href="https://www.twitter.com">Info de Contacto</a></div>
+        </div>
+    </footer>
+
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>

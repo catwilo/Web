@@ -19,8 +19,12 @@
   "homepage": "https://github.com/catwilo/Web#readme",
   "dependencies": {
     "bootstrap": "4.6",
+    "iconv-lite": "^0.6.3",
     "jquery": "^3.6.0",
-    "lite-server": "^2.6.1",
     "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "serve-favicon": "^2.5.0"
   }
 }

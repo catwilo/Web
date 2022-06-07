@@ -1,0 +1,17 @@
+.jumbotron {
+    background-color: aliceblue;
+    color: black;
+}
+
+.reserva {
+    flex: 1 25%;
+    padding: 2px 5px 2px 5px;
+    margin-top: 20px;
+}
+
+footer {
+    padding: 20px 10px 0 10px;
+    background-color: aliceblue;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
