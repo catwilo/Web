@@ -3,10 +3,22 @@
     color: black;
 }
 
+.img-titulo{
+    width: 800px;
+}
 .reserva {
-    flex: 1 25%;
-    padding: 2px 5px 2px 5px;
-    margin-top: 20px;
+    flex: 1 200px;
+    margin: 10px 2px 0px 2px;
+    padding: 0px 0px 0px 0px;
+}
+
+.card-bosdy {
+    padding: 0px 0px 0px 0px;
+}
+
+.boton-reserva {
+    width: 100%;
+    border-radius: 20px;
 }
 
 footer {
