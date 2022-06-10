@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "dev": "lite-server",
-		"lser": "lite-server",
+    "lser": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +21,7 @@
   "dependencies": {
     "bootstrap": "4.6",
     "jquery": "^3.6.0",
+    "open-iconic": "^1.1.1",
     "popper.js": "^1.16.1"
   },
   "devDependencies": {
