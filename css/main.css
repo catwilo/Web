@@ -17,9 +17,9 @@
     padding: 0px 0px 0px 0px;
 }
 
-.boton-reserva {
+.reservboton {
     width: 100%;
-    border-radius: 20px;
+    border-radius: 0px;
 }
 
 footer {
