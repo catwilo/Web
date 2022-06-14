@@ -86,7 +86,8 @@
         <div class="d-flex flex-wrap flex-row-reverse">
             <div class="card reserva d-flex flex-column  ml-2">
                 <div class="card-body">
-                    <h5 class="card-title">Servicio de acabados en estuco</h5>
+                    <h5 class="card-title" data-toggle="tooltip" data-placement="top"
+                        title="Se aplica 30% de descuento para primeras reservas">Servicio de acabados en estuco</h5>
                     <h6 class="card-subtitle text-muted">Colombia</h6>
                     <img class="card-img-top" src="images/RepairHome.png" alt="imagen PlanoCasa">
                     <p class="card-text">Agenda tu cita de cotizacion en estuco</p>
@@ -101,7 +102,8 @@
             </div>
             <div class="card reserva d-flex flex-column  ml-2">
                 <div class="card-body">
-                    <h5 class="card-title">Servicio de acabados en pintura</h5>
+                    <h5 class="card-title" data-toggle="tooltip" data-placement="top"
+                        title="Se aplica 30% de descuento para primeras reservas">Servicio de acabados en pintura</h5>
                     <h6 class="card-subtitle text-muted">Colombia</h6>
                     <img class="card-img-top" src="images/RepairHome.png" alt="imagen PlanoCasa">
                     <p class="card-text">Agenda tu cita de cotizacion en pintura</p>
@@ -115,7 +117,8 @@
             </div>
             <div class="card reserva d-flex flex-column  ml-2">
                 <div class="card-body">
-                    <h5 class="card-title">Servicio de acabados en baños</h5>
+                    <h5 class="card-title" data-toggle="tooltip" data-placement="top"
+                        title="Se aplica 30% de descuento para primeras reservas">Servicio de acabados en baños</h5>
                     <h6 class="card-subtitle text-muted">Colombia</h6>
                     <img class="card-img-top" src="images/RepairHome.png" alt="imagen PlanoCasa">
                     <p class="card-text">Agenda tu cita de cotizacion en baños</p>
@@ -123,14 +126,13 @@
                         data-target="#contacto"></span>Contacto</button>
                 </div>
                 <div>
-                    <button class="btn reservboton btn-primary"><span class="oi oi-fire"></span>Quiero
-                        reservar</button>
-
+                    <button class="btn reservboton btn-primary"><span class="oi oi-fire"></span>Quiero reservar</button>
                 </div>
             </div>
             <div class="card reserva d-flex flex-column  ml-2">
                 <div class="card-body">
-                    <h5 class="card-title">Servicio de acabados en cocina</h5>
+                    <h5 class="card-title" data-toggle="tooltip" data-placement="top"
+                        title="Se aplica 30% de descuento para primeras reservas">Servicio de acabados en cocina</h5>
                     <h6 class="card-subtitle text-muted">Colombia</h6>
                     <img class="card-img-top" src="images/RepairHome.png" alt="imagen PlanoCasa">
                     <p class="card-text">Agenda tu cita de cotizacion en cocina</p>
@@ -140,12 +142,13 @@
                 <div>
                     <button class="btn reservboton btn-primary"><span class="oi oi-fire"></span>Quiero
                         reservar</button>
-
                 </div>
             </div>
             <div class="card reserva d-flex flex-column  ml-2">
                 <div class="card-body">
-                    <h5 class="card-title">Servicio de acabados en cocina de madera</h5>
+                    <h5 class="card-title" data-toggle="tooltip" data-placement="top"
+                        title="Se aplica 30% de descuento para primeras reservas">Servicio de acabados en cocina madera
+                    </h5>
                     <h6 class="card-subtitle text-muted">Colombia</h6>
                     <img class="card-img-top" src="images/RepairHome.png" alt="imagen PlanoCasa">
                     <p class="card-text">Agenda tu cita de cotizacion en cocina de madera</p>
@@ -160,7 +163,9 @@
             </div>
             <div class="card reserva d-flex flex-column  ml-2">
                 <div class="card-body">
-                    <h5 class="card-title">Servicio de acabados en cocina industrial</h5>
+                    <h5 class="card-title" data-toggle="tooltip" data-placement="top"
+                        title="Se aplica 30% de descuento para primeras reservas">Servicio de acabados en cocina
+                        industrial</h5>
                     <h6 class="card-subtitle text-muted">Colombia</h6>
                     <img class="card-img-top" src="images/RepairHome.png" alt="imagen PlanoCasa">
                     <p class="card-text">Agenda tu cita de cotizacion en cocina industrial</p>
@@ -170,12 +175,13 @@
                 <div>
                     <button class="btn reservboton btn-primary"><span class="oi oi-fire"></span>Quiero
                         reservar</button>
-
                 </div>
             </div>
             <div class="card reserva d-flex flex-column  ml-2">
                 <div class="card-body">
-                    <h5 class="card-title">Servicio de acabados en baños de lujo</h5>
+                    <h5 class="card-title" data-toggle="tooltip" data-placement="top"
+                        title="Se aplica 30% de descuento para primeras reservas">Servicio de acabados en baños de lujo
+                    </h5>
                     <h6 class="card-subtitle text-muted">Colombia</h6>
                     <img class="card-img-top" src="images/RepairHome.png" alt="imagen PlanoCasa">
                     <p class="card-text">Agenda tu cita de cotizacion en baños de lujo</p>
@@ -190,9 +196,6 @@
         </div>
         <!--linea que se ve como divisor de componentes-->
         <hr>
-
-
-
         <div class="modal fade" id="contacto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
             aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -252,7 +255,12 @@
 
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
 
 </body>
 
