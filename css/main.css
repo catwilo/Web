@@ -6,7 +6,6 @@
 .img-titulo {
     width: 800px;
 }
-
 .reserva {
     flex: 1 100px;
     margin: 10px 2px 0px 2px;
@@ -37,6 +36,6 @@ footer {
     padding-right: 10px;
 }
 
-.tab-content{
+.tab-content {
     padding-top: 30px;
 }
