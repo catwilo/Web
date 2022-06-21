@@ -24,7 +24,6 @@
     "open-iconic": "^1.1.1"
   },
   "devDependencies": {
-    "lite-server": "^2.6.1",
-    "serve-favicon": "^2.5.0"
+    "lite-server": "^2.6.1"
   }
 }
