@@ -1,41 +1,44 @@
 .jumbotron {
-    background-color: aliceblue;
-    color: black;
+  background-color: aliceblue;
+  color: black;
 }
 
 .img-titulo {
-    width: 800px;
+  width: 800px;
 }
+
 .reserva {
-    flex: 1 100px;
-    margin: 10px 2px 0px 2px;
-    padding: 0px 0px 0px 0px;
+  flex: 1 100px;
+  margin: 10px 2px 0px 2px;
+  padding: 0px 0px 0px 0px;
 }
 
 .card-body {
-    padding: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
 }
 
 .reservboton {
-    width: 100%;
-    border-radius: 0px;
+  width: 100%;
+  border-radius: 0px;
 }
 
 footer {
-    padding: 20px 10px 0 10px;
-    background-color: aliceblue;
-    margin-bottom: 0px;
-    margin-top: 10px;
+  padding: 20px 10px 0 10px;
+  background-color: aliceblue;
+  margin-bottom: 0px;
+  margin-top: 10px;
 }
 
 .footer-icon {
-    padding-right: 10px;
+  padding-right: 10px;
 }
 
 .oi-fire {
-    padding-right: 10px;
+  padding-right: 10px;
 }
 
 .tab-content {
-    padding-top: 30px;
+  padding-top: 30px;
 }
+
+/*# sourceMappingURL=main.css.map */

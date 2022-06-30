@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "lite-server",
     "lser": "lite-server",
+		"scss": "sass --watch css/styles.scss css/main.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

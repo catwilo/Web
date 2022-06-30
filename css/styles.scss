@@ -1,0 +1,50 @@
+$base: aliceblue;
+$jumboTitle: black;
+
+@mixin margenes($top, $bottom) {
+    margin-top: $top;
+    margin-bottom: $bottom;
+}
+
+.jumbotron {
+    background-color: $base;
+    color: $jumboTitle;
+    @include margenes(50px, 0px);
+}
+
+.img-titulo {
+    width: 800px;
+}
+
+.reserva {
+    flex: 1 100px;
+    margin: 10px 2px 0px 2px;
+    padding: 0px 0px 0px 0px;
+}
+
+.card-body {
+    padding: 0px 0px 0px 0px;
+}
+
+.reservboton {
+    width: 100%;
+    border-radius: 0px;
+}
+
+footer {
+    padding: 20px 10px 0 10px;
+    background-color: $base;
+    @include margenes(10px, 0px);
+}
+
+.footer-icon {
+    padding-right: 10px;
+}
+
+.oi-fire {
+    padding-right: 10px;
+}
+
+.tab-content {
+    padding-top: 30px;
+}
